@@ -36821,3 +36821,180 @@ START: Footer CSS
 }
 
 /*# sourceMappingURL=style.css.map */
+/* Mobile Responsiveness */
+
+/* Hero Section */
+@media (max-width: 768px) {
+    .hero-content {
+        flex-direction: column !important;
+        gap: 1rem !important;
+    }
+    .hero-content .section-content {
+        flex: 0 0 100% !important;
+    }
+}
+
+/* Footer */
+@media (max-width: 768px) {
+    .footer-logo .text-wrapper {
+        min-width: auto !important;
+        flex: 1 !important;
+    }
+}
+
+/* Service Boxes */
+@media (max-width: 768px) {
+    .service-box {
+        height: auto !important;
+        padding: 30px 20px !important;
+    }
+    .service-box .title {
+        font-size: 1.5rem !important;
+    }
+    .service-box .text {
+        font-size: 0.9rem !important;
+    }
+}
+
+/* General Mobile Adjustments */
+@media (max-width: 768px) {
+    .section-title {
+        font-size: 2rem !important;
+    }
+    .text-wrapper p {
+        font-size: 0.9rem !important;
+    }
+    .container.large {
+        padding-left: 15px !important;
+        padding-right: 15px !important;
+    }
+}
+/* Mobile Responsiveness */
+
+/* Hero Section */
+@media (max-width: 768px) {
+    .hero-content {
+        flex-direction: column !important;
+        gap: 1rem !important;
+    }
+    .hero-content .section-content {
+        flex: 0 0 100% !important;
+    }
+}
+
+/* Footer */
+@media (max-width: 768px) {
+    .footer-logo .text-wrapper {
+        min-width: auto !important;
+        flex: 1 !important;
+    }
+}
+
+/* Service Boxes */
+@media (max-width: 768px) {
+    .service-box {
+        height: auto !important;
+        padding: 30px 20px !important;
+    }
+    .service-box .title {
+        font-size: 1.5rem !important;
+    }
+    .service-box .text {
+        font-size: 0.9rem !important;
+    }
+}
+
+/* GIF/Video */
+@media (max-width: 768px) {
+    .title-video {
+        width: 100% !important;
+        max-width: 300px !important;
+        height: auto !important;
+    }
+}
+
+/* General Mobile Adjustments */
+@media (max-width: 768px) {
+    .section-title {
+        font-size: 2rem !important;
+    }
+    .text-wrapper p {
+        font-size: 0.9rem !important;
+    }
+    .container.large {
+        padding-left: 15px !important;
+        padding-right: 15px !important;
+    }
+}
+/* Mobile Responsiveness */
+
+/* Hero Section */
+@media (max-width: 768px) {
+    .hero-content {
+        flex-direction: column !important;
+        gap: 1rem !important;
+    }
+    .hero-content .section-content {
+        flex: 0 0 100% !important;
+    }
+}
+
+/* Footer */
+@media (max-width: 768px) {
+    .footer-logo .text-wrapper {
+        min-width: auto !important;
+        flex: 1 !important;
+    }
+}
+
+/* Service Boxes */
+@media (max-width: 768px) {
+    .service-box {
+        height: auto !important;
+        padding: 30px 20px !important;
+    }
+    .service-box .title {
+        font-size: 1.5rem !important;
+    }
+    .service-box .text {
+        font-size: 0.9rem !important;
+    }
+}
+
+/* GIF/Video */
+@media (max-width: 768px) {
+    .title-video {
+        width: 100% !important;
+        max-width: 300px !important;
+        height: auto !important;
+    }
+}
+
+/* About Sections */
+@media (max-width: 768px) {
+    .section-content-wrapper {
+        flex-direction: column !important;
+        gap: 1rem !important;
+    }
+    .approach-wrapper {
+        flex-direction: column !important;
+        gap: 1rem !important;
+    }
+    .approach-box {
+        margin-bottom: 1rem !important;
+    }
+}
+
+/* General Mobile Adjustments */
+@media (max-width: 768px) {
+    .section-title {
+        font-size: 2rem !important;
+    }
+    .text-wrapper p {
+        font-size: 0.9rem !important;
+    }
+    .container.large {
+        padding-left: 15px !important;
+        padding-right: 15px !important;
+    }
+}
