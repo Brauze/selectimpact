@@ -602,11 +602,11 @@
                 </div>
                 <div style="background: white; padding: 30px; border-radius: 12px; box-shadow: 0 4px 20px rgba(0,0,0,0.1); margin: 30px 0;">
                     <h3 style="color: #16a34a; font-size: 22px; margin-bottom: 20px; text-align: center;">Register as a Farmer - It's FREE!</h3>
-                    <form id="farmerRegistration" onsubmit="handleRegistration(event)" style="display: flex; flex-direction: column; gap: 15px;">
-                        <input type="text" id="farmerName" placeholder="Full Name *" required style="padding: 14px; border: 2px solid #e1e4e8; border-radius: 6px; font-size: 15px;">
-                        <input type="tel" id="farmerPhone" placeholder="Phone Number *" required style="padding: 14px; border: 2px solid #e1e4e8; border-radius: 6px; font-size: 15px;">
-                        <input type="text" id="farmerLocation" placeholder="District/Location *" required style="padding: 14px; border: 2px solid #e1e4e8; border-radius: 6px; font-size: 15px;">
-                        <select id="farmType" required style="padding: 14px; border: 2px solid #e1e4e8; border-radius: 6px; font-size: 15px; background: white;">
+                    <form action="https://formspree.io/f/xpznqryq" method="POST" style="display: flex; flex-direction: column; gap: 15px;">
+                        <input type="text" name="name" placeholder="Full Name *" required style="padding: 14px; border: 2px solid #e1e4e8; border-radius: 6px; font-size: 15px;">
+                        <input type="tel" name="phone" placeholder="Phone Number *" required style="padding: 14px; border: 2px solid #e1e4e8; border-radius: 6px; font-size: 15px;">
+                        <input type="text" name="location" placeholder="District/Location *" required style="padding: 14px; border: 2px solid #e1e4e8; border-radius: 6px; font-size: 15px;">
+                        <select name="farmType" required style="padding: 14px; border: 2px solid #e1e4e8; border-radius: 6px; font-size: 15px; background: white;">
                             <option value="">Select Your Farm Type *</option>
                             <option value="poultry">Poultry Farm</option>
                             <option value="crops">Crop Farm</option>
@@ -614,7 +614,7 @@
                             <option value="mixed">Mixed Farm</option>
                             <option value="other">Other</option>
                         </select>
-                        <select id="farmSize" required style="padding: 14px; border: 2px solid #e1e4e8; border-radius: 6px; font-size: 15px; background: white;">
+                        <select name="farmSize" required style="padding: 14px; border: 2px solid #e1e4e8; border-radius: 6px; font-size: 15px; background: white;">
                             <option value="">Farm Size *</option>
                             <option value="small">Small (Less than 1 acre)</option>
                             <option value="medium">Medium (1-5 acres)</option>
@@ -630,10 +630,24 @@
                         ✅ Connect with other farmers
                     </p>
                 </div>
+
+                <!-- Hero Ad Box -->
+                <div class="ad-container" style="margin: 20px 0;">
+                    <!-- Google AdSense - Rectangle -->
+                    <ins class="adsbygoogle"
+                         style="display:block"
+                         data-ad-client="ca-pub-9922165808079979"
+                         data-ad-slot="1234567890"
+                         data-ad-format="auto"
+                         data-full-width-responsive="true"></ins>
+                    <script>
+                         (adsbygoogle = window.adsbygoogle || []).push({});
+                    </script>
+                </div>
                 <div id="registrationSuccess" style="display: none; background: #d4edda; border: 2px solid #28a745; padding: 20px; border-radius: 8px; text-align: center; color: #155724; font-weight: 600; margin: 20px 0;">
                     ✅ Registration Successful! Welcome to Select Impact Farmer Program. Scroll down to learn more about circular farming techniques.
                 </div>
-                <img src="https://source.unsplash.com/600x400/?agriculture,uganda,farm" alt="Ugandan Agriculture" style="width:100%; max-width:400px; margin:20px 0; border-radius:8px; box-shadow: 0 4px 12px rgba(0,0,0,0.1);">
+                <img src="https://images.unsplash.com/photo-1500651230702-0e2d8a49d4ad?w=600&h=400&fit=crop&crop=center" alt="Ugandan Agriculture" style="width:100%; max-width:400px; margin:20px 0; border-radius:8px; box-shadow: 0 4px 12px rgba(0,0,0,0.1);">
             </div>
             <div class="hero-stats">
                 <div class="stat-card">
@@ -716,7 +730,7 @@
                         </ul>
                     </div>
 
-                    <img src="https://source.unsplash.com/600x400/?agricultural,waste" alt="Agricultural Waste" style="width:100%; max-width:400px; margin:20px 0; border-radius:8px; box-shadow: 0 4px 12px rgba(0,0,0,0.1);">
+                    <img src="https://images.unsplash.com/photo-1532996122724-e3bc053efa4e?w=600&h=400&fit=crop&crop=center" alt="Agricultural Waste" style="width:100%; max-width:400px; margin:20px 0; border-radius:8px; box-shadow: 0 4px 12px rgba(0,0,0,0.1);">
 
                     <div class="metrics-grid">
                         <div class="metric-box">
@@ -765,7 +779,7 @@
                         <p style="margin-top: 12px;"><strong>Industry-wide impact:</strong> Agricultural facilities nationwide were burning valuable resources while simultaneously importing expensive feeds and fertilizers—creating a perfect market gap for waste transformation services.</p>
                     </div>
 
-                    <img src="https://source.unsplash.com/600x400/?waste,processing,agriculture" alt="Waste Processing" style="width:100%; max-width:400px; margin:20px 0; border-radius:8px; box-shadow: 0 4px 12px rgba(0,0,0,0.1);">
+                    <img src="https://images.unsplash.com/photo-1574943320219-553eb213f72d?w=600&h=400&fit=crop&crop=center" alt="Waste Processing" style="width:100%; max-width:400px; margin:20px 0; border-radius:8px; box-shadow: 0 4px 12px rgba(0,0,0,0.1);">
 
                     <h3 style="margin-top: 40px; margin-bottom: 20px; font-size: 22px;">Core Service Offerings</h3>
                     
@@ -829,7 +843,7 @@
                         <h2>Measurable Business Impact</h2>
                     </div>
 
-                    <img src="https://source.unsplash.com/600x400/?sustainable,agriculture" alt="Sustainable Agriculture" style="width:100%; max-width:400px; margin:20px 0; border-radius:8px; box-shadow: 0 4px 12px rgba(0,0,0,0.1);">
+                    <img src="https://images.unsplash.com/photo-1416879595882-3373a0480b5b?w=600&h=400&fit=crop&crop=center" alt="Sustainable Agriculture" style="width:100%; max-width:400px; margin:20px 0; border-radius:8px; box-shadow: 0 4px 12px rgba(0,0,0,0.1);">
 
                     <div class="impact-cards">
                         <div class="impact-card">
@@ -1029,22 +1043,6 @@
             navLinks.classList.toggle('active');
         }
 
-        function handleRegistration(event) {
-            event.preventDefault();
-            const name = document.getElementById('farmerName').value;
-            const phone = document.getElementById('farmerPhone').value;
-            const location = document.getElementById('farmerLocation').value;
-            const type = document.getElementById('farmType').value;
-            const size = document.getElementById('farmSize').value;
-            if (name && phone && location && type && size) {
-                document.getElementById('registrationSuccess').style.display = 'block';
-                document.getElementById('farmerRegistration').reset();
-                document.getElementById('registrationSuccess').scrollIntoView({behavior: 'smooth'});
-            } else {
-                alert('Please fill all required fields.');
-            }
-        }
-
         function scrollToTop() {
             window.scrollTo({top: 0, behavior: 'smooth'});
         }
@@ -1054,6 +1052,15 @@
             if (section) {
                 section.scrollIntoView({behavior: 'smooth'});
             }
+        }
+
+        // Handle form submission success message
+        const urlParams = new URLSearchParams(window.location.search);
+        if (urlParams.get('success') === 'true') {
+            const successDiv = document.createElement('div');
+            successDiv.style.cssText = 'background: #d4edda; border: 2px solid #28a745; padding: 20px; border-radius: 8px; text-align: center; color: #155724; font-weight: 600; margin: 20px 0;';
+            successDiv.textContent = '✅ Registration Successful! Welcome to Select Impact Farmer Program. Scroll down to learn more about circular farming techniques.';
+            document.querySelector('.hero-text').appendChild(successDiv);
         }
     </script>
 </body>
